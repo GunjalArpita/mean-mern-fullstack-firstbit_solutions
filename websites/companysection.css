@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+    border: 5px solid cyan;
+    border-top-left-radius:10% ;
+    border-bottom-right-radius:10% ;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+
+}
+p,h1{
+     margin-left: 50px;
+     margin-right: 50px;
+    text-align: center;
+    font-style: italic;
+}
+h1{
+    color: cyan;
+    padding: 10px;
+}
+p{
+    font-size: large;
+}

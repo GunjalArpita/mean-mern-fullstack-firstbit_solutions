@@ -1,0 +1,15 @@
+{
+  "name": "js-observables",
+  "version": "1.0.0",
+  "description": "This is my project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type":"module",
+  "author": "Arpita",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}

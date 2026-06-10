@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+label,input{
+    margin: 10px;
+    font-size: larger;
+}
+button{
+    color: rgb(83, 83, 243);
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+   margin-left: 580px;
+}

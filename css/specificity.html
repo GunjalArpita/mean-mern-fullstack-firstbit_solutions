@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>SPECIFICITY</title>
+    <style>
+        p{
+            color: rebeccapurple;
+        }
+        #id{
+            color:green;
+        }
+        .class{
+            color: blue;
+        }
+        *{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--id specificity > class specificity > element specificity-->
+    <!--highest priority is to id specificity but if we use inline css the it will in top-->
+    <p id="id" class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore repellat ut deleniti doloremque? Aut, praesentium qui! Voluptates voluptatem soluta voluptatum animi consectetur quod dolorem nihil, maxime sed, porro dolores.</p>
+</body>
+</html>

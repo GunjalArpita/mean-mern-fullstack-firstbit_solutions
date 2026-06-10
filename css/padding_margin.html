@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>trial_padding_margin</title>
+    <style>
+        p{   
+            border: 5px solid ;
+            border-color: darkgreen;
+
+           /*padding is always in inside border */
+           /*white space inside the border is padding*/
+           /*changes happen inside border without affecting the border*/
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+        div{
+            border: 2px solid;
+            border-color: darkmagenta;
+
+            /*margin is outside the border*/
+            /*space occupy by element outside the border is margin*/
+            /*changes happen on border also content*/
+            /*margin is simply a gap/space between elements*/
+            margin-top: 80px;
+            margin-left: 65px;
+            margin-right: 65px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iure recusandae atque, fuga, molestias facilis, rem porro ex quod quidem suscipit neque tempore repellat. Pariatur delectus distinctio atque laboriosam laudantium ab earum, esse quibusdam unde, eius quam ratione. Quo, vel?</p>
+
+    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, corrupti.</div>
+</body>
+</html>

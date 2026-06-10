@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="mt-5 ml-4">
+        <form action="/" class="was-validated" >
+            <table >
+                <div>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="name" class="form-control" placeholder="Enter name" required></td>
+                    <div class="valid-feedback">valid</div>
+                    <div class="invalid-feedback">Please fill out this feild</div>
+                </tr>
+                </div>
+            <div>
+                <tr>
+                    <td><label for="mail">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" name="mail" class="form-control" placeholder=" Enter Email" required></td>
+                </tr>
+                </div>
+                <div>
+                <tr>
+                    <td><label for="mb">Mobile Number</label></td>
+                    <td>:</td>
+                    <td><input type="number" value="mb" class="form-control" placeholder="Enter Mobile number" required></td>
+                </tr>
+                </div>
+                <tr>
+                     <td><button type="submit" class="btn btn-primary">Click Here</button></td>
+                </tr>
+               </table>
+        </form>
+    </div>
+</body>
+</html>

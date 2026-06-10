@@ -1,0 +1,26 @@
+{
+    "users":
+    [
+        {
+             "id":1,
+             "name":"xyz",
+             "email":"xyz@gmail.com",
+             "address":"sangamner",
+             "city":"nagar"
+        },
+        {
+            "id":2,
+            "name":"abc",
+            "email":"abc@gmail.com",
+            "address":"sinner",
+            "city":"nashik"
+       },
+       {
+        "id":2,
+        "name":"pqr",
+        "email":"pqr@gmail.com",
+        "address":"pimpri",
+        "city":"pune"
+   }
+    ]
+}
