@@ -19,4 +19,4 @@ console.log(filterRes);
 //reduce function
 const reduceRes = arr.reduce((accum, current, i, array) => {return current+accum})
 console.log(reduceRes);
-//3
+//[15]

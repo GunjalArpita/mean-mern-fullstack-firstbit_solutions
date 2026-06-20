@@ -18,3 +18,19 @@ for(let i=0;i<array.length;i++)
            
 }
 console.log(dup);
+
+
+//or
+
+//remove duplicate elements
+
+let a = [1,1,4,4,3,3,2,2,5,5];
+let newArray = a.sort();
+for(let i=0; i<newArray.length;i++)
+{
+  if(newArray[i]===newArray[i+1])
+  {
+    newArray.splice(i,1);
+  }
+}
+console.log(newArray);

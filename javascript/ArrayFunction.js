@@ -66,7 +66,7 @@ let squarenumber = squares.map(function(squares)
 console.log(squares);
 console.log(squarenumber);
 
-//10.find-return value of first element in array.return undefined if no element satisfies the testing function.
+//10.find-return value of first element in array. return undefined if no element satisfies the testing function.
 let NUMBER=[2,4,6,8,10];
 let findnumber=NUMBER.find(function(num)
 {
@@ -99,9 +99,9 @@ console.log(concatarray);
  
 //14.slice-returns shallow copy of *portion of array into new array object selected from start to end *(end not included).
 //not working
-let Array =[55,66,77,88,99];
-let sliceArray=Array.slice(1,2); // start_index ,end_index ,returns selected array.
-console.log(Array);
+let Arrays =[55,66,77,88,99];
+let sliceArray=Arrays.slice(1,3); // start_index ,end_index ,returns selected array.
+console.log(Arrays);
 console.log(sliceArray);
 
 //15.splice-adds/removes items to/from an array and returns the removed items.
@@ -132,4 +132,9 @@ let joinarray3=fruit.join("");
 console.log(joinarray);
 console.log(joinarray2);
 console.log(joinarray3);
+
+
+
+
+
 

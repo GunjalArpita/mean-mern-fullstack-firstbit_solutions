@@ -10,7 +10,7 @@
 
 let p=new Promise((resolve,reject)=>
     {
-        let dataFound=false;
+        let dataFound=true;
         if(dataFound==true)
             {
                 resolve(100);
@@ -22,10 +22,10 @@ let p=new Promise((resolve,reject)=>
     });
 //a=getData();
 p.then((res)=>{
-    console.log("promise successfull"+res);
+    console.log("promise successfull "+res);
 })
 .catch((err)=>{
-    console.log('promise failed'+err);
+    console.log('promise failed '+err);
 })
 .finally(()=>{
     console.log("always executed");

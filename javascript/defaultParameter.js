@@ -10,3 +10,11 @@ z(2,3);  // when we provide a value to the function then it ignore the default v
 z(10);  //here only one value is provided so it is assigned to the first parameter.
 z();
 
+function greet(name="Arpita")
+{
+    console.log(`hello ${name}`);
+    
+}
+greet("Divya");
+greet()
+
