@@ -1,5 +1,5 @@
 const arr=[1,2,3,4,5]
-const brr=[9,10,22,...arr]
+const brr=[...arr,9,10,22]
 console.log(brr,'aaaaaaaa')
   function add(a,b,c,d)
   {
