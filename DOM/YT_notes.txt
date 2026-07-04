@@ -1,0 +1,143 @@
+DOM-
+4 pillars of dom-
+  selection of an elements-var a = document.querySelector("h1")
+  changing html- a.innerHTML = "Arpita"
+  changing css- a.style.color="red";
+  event listener-a.addEventListener("click",function(){
+    console.log("hey")
+})
+
+
+
+************BULB CODE**************
+
+var a = document.querySelector("#bulb")
+var btn = document.querySelector("button")
+var flag = 0
+
+btn.addEventListener("click",function(){
+    if(flag == 0)
+    {
+  a.style.backgroundColor="red"  
+  flag = 1;
+    }
+    else{
+      a.style.backgroundColor="green"  
+  flag = 0;  
+    }
+})
+
+
+#bulb{
+    color: yellow;
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+button{
+    padding: 10px 10px;
+    margin: 80px;
+    color: black;
+    background-color: bisque;
+}
+
+
+<body>
+    <div id="bulb"></div>
+    <button>ON</button>
+   <script src="./a.js"></script> 
+</body>
+****************END*********************
+
+Nodelist similar to array.
+
+var h1 = document.querySelectorAll("h1")
+console.log(h1);
+
+var h1 = document.querySelectorAll("h1")
+console.log(h1);
+h1.forEach((e) => {
+  console.log(e);
+  
+})
+
+*************************************
+
+var a =document.getElementById("a")
+console.log(a);
+
+
+*******************************
+var a =document.getElementsByClassName("b")
+console.log(a);
+
+***********************************
+innerHTML changes the text inside the tag.
+textContent display the content as it is.
+
+**************************************
+
+event bubling-child to parent
+var div  = document.querySelector("div")
+var btn  = document.querySelector("button")
+
+div.addEventListener("click",function()
+{
+    console.log("div");
+    
+})
+
+
+btn.addEventListener("click",function()
+{
+    console.log("btn");
+    
+})
+
+
+  <div>
+        <button>Like Me</button>
+    </div>
+
+
+********************************
+
+event capturing
+var div  = document.querySelector("div")
+var btn  = document.querySelector("button")
+
+div.addEventListener("click",function()
+{
+    console.log("div");
+    
+},true)
+
+
+btn.addEventListener("click",function()
+{
+    console.log("btn");
+    
+},true)
+
+
+*************************************
+
+stopPropagation()-to stop flow from child to parent.
+var div  = document.querySelector("div")
+var btn  = document.querySelector("button")
+
+div.addEventListener("click",function()
+{
+    console.log("div");
+    
+})
+
+
+btn.addEventListener("click",function(event)
+{   
+    event.stopPropagation()
+    console.log("btn");
+    
+})
